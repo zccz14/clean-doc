@@ -49,15 +49,9 @@ clean-doc/
 
 ## Installation
 
-Copy or symlink this repository's skill folder into your agent skills directory, depending on your agent runtime.
-
-For OpenCode/Claude-style skill loading, the important file is:
-
-```text
-SKILL.md
+```sh
+npx skills add zccz14/clean-doc
 ```
-
-The frontmatter declares the skill name as `clean-doc`.
 
 ## Maintenance Notes
 
